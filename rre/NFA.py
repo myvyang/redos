@@ -319,7 +319,7 @@ class NFA():
                 e, p = advance_tasks[i]
                 out_paths, overlaps = _advance(e, p)                
                 if len(out_paths) > 1:
-                    print("search path from redos: %s" % i)
+                    # print("search path from redos: %s" % i)
                     return out_paths, overlaps
 
                 i += 1
