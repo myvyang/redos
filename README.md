@@ -39,6 +39,3 @@ from rre.redos import find_match, find_redos
     
     
 ```
-
-
-[![Stargazers over time](https://starchart.cc/mylxsw/growing-up.svg)](https://starchart.cc/mylxsw/growing-up)
