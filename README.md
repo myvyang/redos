@@ -2,9 +2,9 @@
 
 Two functions are provided:
 
-`` `
+```
 from rre.redos import find_match, find_redos
-`` `
+```
 
 `find_match` Inverses the matched text from the regular expression.
 
@@ -14,7 +14,7 @@ Unlike other simple detections, this implementation can detect deep REDOS vulner
 
 ### Example
 
-`` `
+```
     print (find_redos (r "(! +) + h"))
     print (find_redos (r "(m (a | bc) * | mbca) * h"))
     print (find_redos (r "^ (([a-z]) +.) + [A-Z] ([a-z]) + $"))
@@ -37,4 +37,4 @@ Unlike other simple detections, this implementation can detect deep REDOS vulner
     (True, '000@00.aa')
     
     
-`` `
+```
